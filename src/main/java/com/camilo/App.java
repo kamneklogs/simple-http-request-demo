@@ -61,7 +61,7 @@ public class App {
 
     private static List<List<String>> readCSV() throws IOException, CsvValidationException, FileNotFoundException {
         List<List<String>> records = new ArrayList<List<String>>();
-        try (CSVReader csvReader = new CSVReader(new FileReader("/home/inmedia/Projects/demo/data/data.csv"));) {
+        try (CSVReader csvReader = new CSVReader(new FileReader("REPLACE WITH PATH"));) {
             String[] values = null;
             while ((values = csvReader.readNext()) != null) {
                 records.add(Arrays.asList(values));
