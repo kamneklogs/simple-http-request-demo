@@ -20,10 +20,6 @@ import com.opencsv.exceptions.CsvValidationException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-/**
- * Hello world!
- *
- */
 public class App {
 
     private static final Log log = LogFactory.getLog(App.class);
